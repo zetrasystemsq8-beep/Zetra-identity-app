@@ -6,6 +6,13 @@
       "title": "Initial build of Zetra ID app",
       "content": "- Flutter app 'Zetra ID' built from scratch.\n- Features 3 screens: Entry (ID generation), ID Display (with copy), and Inbox (read-only list).\n- Persists ID using flutter_secure_storage.\n- Backend: https://zetra-backend.onrender.com\n- Package name: com.zetrasystems.zetraid\n- No complex state management used (setState only).",
       "updatedAt": "2026-07-15T13:33:28.553Z"
+    },
+    {
+      "id": "aac824c8-63c9-442e-a497-10e7e9e38293",
+      "kind": "task_done",
+      "title": "API Integration & UI Refresh",
+      "content": "Updated Flutter app to integrate with new /api/identity/create and /api/identity/:zetra_id/messages endpoints. Added date formatting, logout (reset) capability, and UI refinements.",
+      "updatedAt": "2026-07-15T13:47:33.443Z"
     }
   ]
 }

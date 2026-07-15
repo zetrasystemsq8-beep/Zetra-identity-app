@@ -242,7 +242,7 @@ class DisplayScreen extends StatelessWidget {
                     const SizedBox(height: 12),
                     SelectableText(
                       zetraId,
-                      style: const TextStyle(fontSize: 36, fontWeight: FontWeight.black, letterSpacing: 1.5),
+                      style: const TextStyle(fontSize: 36, fontWeight: FontWeight.w900, letterSpacing: 1.5),
                     ),
                   ],
                 ),

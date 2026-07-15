@@ -242,7 +242,7 @@ class DisplayScreen extends StatelessWidget {
                     const SizedBox(height: 12),
                     SelectableText(
                       zetraId,
-                      style: const TextStyle(fontSize: 36, fontWeight: FontWeight.black, letterSpacing: 1.5),
+                      style: const TextStyle(fontSize: 36, fontWeight: FontWeight.w900, letterSpacing: 1.5),
                     ),
                   ],
                 ),
@@ -344,7 +344,7 @@ class _InboxScreenState extends State<InboxScreen> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.inbox, size: 64, color: Colors.grey.withOpacity(0.5)),
+                        Icon(Icons.inbox, size: 64, color: Colors.grey.withValues(alpha: 0.5)),
                         const SizedBox(height: 16),
                         const Text('No messages yet', style: TextStyle(color: Colors.grey)),
                       ],

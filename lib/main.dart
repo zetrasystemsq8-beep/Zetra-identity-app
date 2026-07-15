@@ -344,7 +344,7 @@ class _InboxScreenState extends State<InboxScreen> {
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
-                        Icon(Icons.inbox, size: 64, color: Colors.grey.withOpacity(0.5)),
+                        Icon(Icons.inbox, size: 64, color: Colors.grey.withAlpha(128)),
                         const SizedBox(height: 16),
                         const Text('No messages yet', style: TextStyle(color: Colors.grey)),
                       ],
